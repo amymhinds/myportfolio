@@ -77,6 +77,10 @@ a {
 h2 {
   color: white;
 }
+.list {
+  color: white;
+  font-weight: lighter;
+}
 
 h4,
 h3,
@@ -96,12 +100,10 @@ h3 {
 .skills {
   display: grid;
   grid-row: 1fr;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-evenly;
 }
-ul {
-  text-decoration: underline;
-}
+
 .plate,
 .battleship {
   line-height: 2rem;
@@ -117,4 +119,9 @@ ul {
 p {
   padding-right: 3rem;
   padding-left: 3reem;
+}
+li {
+  justify-content: center;
+  text-align: center;
+  list-style: none;
 }
